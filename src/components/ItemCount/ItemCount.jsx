@@ -4,14 +4,17 @@ import { useState } from "react";
 const ItemCount = () => {
     const [contador, setContador] = useState(1);
 
+    let maximo = 10;
     const aumentar = () => {
-        setContador(contador + 1);
-
+        if (contador < maximo) {
+            setContador(contador + 1);
+        }
     }
 
     const reducir = () => {
-        setContador(contador - 1);
-
+        if (contador > 1) {
+            setContador(contador - 1);
+        }
     }
 
     return (

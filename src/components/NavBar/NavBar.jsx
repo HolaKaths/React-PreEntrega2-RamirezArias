@@ -7,20 +7,22 @@ const NavBar = () => {
     return (
         <header>
             <img src={mascota} alt="Logo Pet" />
-            <h1> Tienda Pet</h1>
+           
+            <h1> Proyecto Pet</h1>
+            
             <nav>
                 <ul>
+                    <li>
+                    ¿Qué es Proyecto Pet?
+                    </li>
                     <li>
                         Calculadora
                     </li>
                     <li>
-                        Instapets
-                    </li>
-                    <li>
-                        ¿Qué es Proyecto Pet?
-                    </li>
-                    <li>
                         Random Pet
+                    </li>
+                    <li>
+                        Tienda Pet
                     </li>
                 </ul>
             </nav>

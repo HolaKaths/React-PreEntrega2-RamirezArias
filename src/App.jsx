@@ -3,7 +3,8 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import ItemCount from './components/ItemCount/ItemCount';
-
+import Vista from './components/Vista/Vista';
+import Mensaje from './components/Mensaje/Mensaje';
 
 
 function App() {
@@ -15,11 +16,12 @@ function App() {
       <br />
       <ItemListContainer greeting="¡Bienvenido a tu Tienda Pet!" />
       <ItemCount />
-
+      <Vista />
+      <Mensaje />
       <br />
 
       <div className="content">
-        <p>Encuentra todos los productos para tus mascotas.
+        <p>
 
           Proyecto Pet nace de la necesidad de contar con un archivo en la nube que recopile todo lo
           que ocurre con tu mascota en términos de salud y bienestar general.
