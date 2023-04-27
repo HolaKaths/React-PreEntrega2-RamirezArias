@@ -11,14 +11,14 @@ function App() {
   return (
     <>
       <NavBar />
-     
-<br />
+
+      <br />
       <ItemListContainer greeting="¡Bienvenido a tu Tienda Pet!" />
       <br />
 
       <div class="content">
-                <p>Encuentra todos los productos para tu mascotas.</p>
-            </div>
+        <p>Encuentra todos los productos para tus mascotas.</p>
+      </div>
 
       <Footer />
     </>

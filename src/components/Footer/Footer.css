@@ -3,8 +3,11 @@ footer {
     color: black;
     text-align: center;
     font-family: montserrat;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
     padding: 1rem;
     margin-top: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
