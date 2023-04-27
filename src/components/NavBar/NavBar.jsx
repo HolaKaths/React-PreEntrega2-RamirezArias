@@ -1,10 +1,12 @@
 import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget';
+import mascota from '../Images/mascota.png';
 
 const NavBar = () => {
 
     return (
         <header>
+            <img src={mascota} alt="Logo Pet" />
             <h1> Tienda Pet</h1>
             <nav>
                 <ul>
@@ -26,9 +28,5 @@ const NavBar = () => {
         </header> 
     );
 };
-
-
-
-
 
 export default NavBar
