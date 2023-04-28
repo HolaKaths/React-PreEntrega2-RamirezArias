@@ -9,7 +9,7 @@ const Mensaje = () => {
   return (
     <div>
       <button onClick={manejadorMensaje}>  {mensaje ? "Ocultar" : "Mostrar"} </button>
-      {mensaje && <h2> Opción pet 1</h2>}
+      {mensaje && <h2> Visita nuestra Tienda Pet y descubre las marcas disponibles</h2>}
     </div>
   )
 }
