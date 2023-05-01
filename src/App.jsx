@@ -14,7 +14,7 @@ function App() {
       <NavBar />
 
       <br />
-      <ItemListContainer greeting="¡Bienvenido a tu Tienda Pet!" />
+      <ItemListContainer greeting="¡Bienvenid@ a tu Tienda Pet!" />
       <ItemCount />
       <Vista />
       <Mensaje />
