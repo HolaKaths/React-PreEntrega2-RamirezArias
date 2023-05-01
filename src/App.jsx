@@ -5,6 +5,8 @@ import Footer from './components/Footer/Footer';
 import ItemCount from './components/ItemCount/ItemCount';
 import Vista from './components/Vista/Vista';
 import Mensaje from './components/Mensaje/Mensaje';
+import Categorias from './components/Categorias/Categorias';
+import UseRef from './components/UseRef/UseRef';
 
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
       <NavBar />
 
       <br />
-      <ItemListContainer greeting="¡Bienvenid@ a tu Tienda Pet!" />
+      <ItemListContainer greeting="¡Bienvenido a tu Tienda Pet!" />
       <ItemCount />
       <Vista />
       <Mensaje />
@@ -31,14 +33,21 @@ function App() {
           mucho más.
           <br />
           <br />
+          Adicionalmente podrás encontrar productos especializados para tus mascotas como alimento orgánico,
+          juguetes hipoalergénicos y accesorios exclusivos.
+          <br />
+          <br />
           ¡Ser parte de la comunidad de Proyecto Pet es muy fácil! Registrate en nuestra cuenta básica
           y accede a los beneficios del portal. Si deseas adquirir el plan premium, no dudes en
-          contactarnos.
-          
+          contactarnos. Vive la experiencia Pet.
+
+
           <br />
         </p>
       </div>
 
+      <Categorias />
+      <UseRef />
       <Footer />
     </>
 
