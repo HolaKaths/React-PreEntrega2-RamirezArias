@@ -1,9 +1,8 @@
-import './NavBar.css'
+import './NavBar.css';
 import CartWidget from '../CartWidget/CartWidget';
-import mascota from '../Images/mascota.png';
+import mascota from './mascota.png';
 
 const NavBar = () => {
-
     return (
         <header>
             <img src={mascota} alt="Logo Pet" />
@@ -31,4 +30,5 @@ const NavBar = () => {
     );
 };
 
-export default NavBar
+export default NavBar;
+
