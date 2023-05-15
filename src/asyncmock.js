@@ -1,6 +1,6 @@
 const productos = [
-    { nombre: "Acondicionador", precio: 600, id: 1, img: "Images/acondicionador.png" },
-    { nombre: "Champú", precio: 550, id: 2, img: "Images/champu (1).png" },
+    { nombre: "Acondicionador", precio: 600, id: 1, img: "Images/acondicionador.png", idCat: "Limpieza" },
+    { nombre: "Champú", precio: 550, id: 2, img: "Images/champu (1).png", idCat: "Limpieza"  },
     { nombre: "Antipulgas", precio: 3750, id: 3, img: "Images/anti-pulgas.png" },
     { nombre: "Cepillo", precio: 100, id: 4, img: "Images/cepillo.png" },
     { nombre: "Collar azul", precio: 300, id: 6, img: "Images/collar-azul.png" },

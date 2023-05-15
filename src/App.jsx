@@ -7,6 +7,8 @@ import Vista from './components/Vista/Vista';
 import Mensaje from './components/Mensaje/Mensaje';
 import Categorias from './components/Categorias/Categorias';
 import UseRef from './components/UseRef/UseRef';
+import Banner from './components/Banner/Banner';
+
 
 
 function App() {
@@ -16,7 +18,10 @@ function App() {
       <NavBar />
 
       <br />
+      <Banner />
+      <Categorias />
       <ItemListContainer greeting="¡Bienvenido a tu Tienda Pet!" />
+
       <ItemCount />
       <Vista />
       <Mensaje />
@@ -46,10 +51,10 @@ function App() {
         </p>
       </div>
 
-      <Categorias />
+
       <UseRef />
       <Footer />
-      
+
     </>
 
   );
