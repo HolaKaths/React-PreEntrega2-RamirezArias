@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Categorias.css'; 
+import './Categorias.css';
 
 
 const Categorias = () => {
@@ -8,7 +8,7 @@ const Categorias = () => {
   useEffect(() => {
     document.title = `Categoria ${categoria}`;
   }, [categoria]);
-  
+
 
   const handleClick = (categoria) => {
     setCategoria(categoria);
@@ -27,7 +27,7 @@ const Categorias = () => {
       </div>
     </div>
   )
-  
+
 }
 
 export default Categorias

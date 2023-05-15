@@ -1,20 +1,21 @@
 .title {
     text-align: center;
     margin-bottom: 1rem;
-    font-family: 'Montserrat', bold,  sans-serif;
+    font-family: 'Montserrat', bold, sans-serif;
     font-size: 2rem;
     color: black;
+    font-weight: bold;
 }
 
 .containercat {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .catProducto {
-    background-color: #48cae4;
+    background-color: #F6F1F1;
     border-radius: 10px;
     width: 13.5rem;
     padding: 1.5rem;
@@ -24,8 +25,14 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
-    font-weight: bold; 
+    font-weight: bold;
     color: black;
     border: none;
     outline: none;
+    cursor: pointer;
+}
+
+.catProducto:hover {
+    background-color: #48cae4;
+    color: white;
 }
