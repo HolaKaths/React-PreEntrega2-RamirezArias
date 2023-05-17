@@ -4,7 +4,7 @@ const productos = [
     { nombre: "Antipulgas", precio: 3750, id: 3, img: "Images/anti-pulgas.png", categorias: "Higiene" },
     { nombre: "Cepillo", precio: 100, id: 4, img: "Images/cepillo.png", categorias: "Higiene" },
     { nombre: "Collar azul", precio: 300, id: 6, img: "Images/collar-azul.png", categorias: "Accesorios" },
-    { nombre: "Collar isabelino", precio: 250, id: 7, img: "Images/collar-isabelino.png" },
+    { nombre: "Collar isabelino", precio: 250, id: 7, img: "Images/collar-isabelino.png",  categorias: "Accesorios" },
     { nombre: "Collar rojo", precio: 300, id: 8, img: "Images/collar-rojo.png", categorias: "Accesorios" },
     { nombre: "Cortauñas", precio: 230, id: 9, img: "Images/cortaunas.png", categoias: "Higiene" },
     { nombre: "Gel de baño", precio: 470, id: 10, img: "Images/geldebano.png", categorias: "Higiene" },

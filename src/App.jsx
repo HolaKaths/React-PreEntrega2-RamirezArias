@@ -10,6 +10,7 @@ import Banner from './components/Banner/Banner';
 
 
 
+
 const categorias = ["Alimentos", "Snacks", "Higiene", "Accesorios", "Juguetes"];
 
 function App() {
@@ -22,9 +23,6 @@ function App() {
       <Banner />
       <Categorias  />
       <ItemListContainer  greeting="¡Bienvenido a tu Tienda Pet!" />
-
-
-
       <ItemCount />
       <Vista />
       <Mensaje />
@@ -54,7 +52,7 @@ function App() {
         </p>
       </div>
 
-
+      
       <UseRef />
       <Footer />
 
