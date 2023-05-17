@@ -1,4 +1,3 @@
-
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
@@ -11,6 +10,8 @@ import Banner from './components/Banner/Banner';
 
 
 
+const categorias = ["Alimentos", "Snacks", "Higiene", "Accesorios", "Juguetes"];
+
 function App() {
   const nombre = "React";
   return (
@@ -19,8 +20,10 @@ function App() {
 
       <br />
       <Banner />
-      <Categorias />
-      <ItemListContainer greeting="¡Bienvenido a tu Tienda Pet!" />
+      <Categorias  />
+      <ItemListContainer  greeting="¡Bienvenido a tu Tienda Pet!" />
+
+
 
       <ItemCount />
       <Vista />

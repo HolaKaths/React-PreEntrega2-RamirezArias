@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Categorias.css';
 
 
+
 const Categorias = () => {
   const [categoria, setCategoria] = useState("");
 
