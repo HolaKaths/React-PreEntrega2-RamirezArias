@@ -17,6 +17,15 @@ const productos = [
     { nombre: "Toalla", precio: 755, id: 17, img: "Images/toalla.png", categorias: "Higiene" },
     { nombre: "Alimento", precio: 180, id: 18, img: "Images/alimentos-para-mascotas.png", categorias: "Alimento" },
     { nombre: "Snacks", precio: 180, id: 19, img: "Images/snacks.png", categorias: "Alimento" },
+    { nombre: "Bozal", precio: 237, id: 20, img: "Images/bozal.png", categorias: "Accesorios" },
+    { nombre: "Colgante pluma", precio: 112, id: 21, img: "Images/colgante-pluma.png", categorias: "Juguetes" },
+    { nombre: "Colgante ratón", precio: 117, id: 22, img: "Images/colgante-raton.png", categorias: "Juguetes" },
+    { nombre: "Kit juguetes", precio: 295, id: 23, img: "Images/kit-juguetes.png", categorias: "Juguetes" },
+    { nombre: "Kong", precio: 99, id: 24, img: "Images/kong.png", categorias: "Juguetes" },
+    { nombre: "Rascador sencillo", precio: 100, id: 25, img: "Images/rascador.png", categorias: "Juguetes" },
+    { nombre: "Rascador doble", precio: 156, id: 26, img: "Images/rascador-doble.png", categorias: "Juguetes" },
+    { nombre: "Rascador deluxe", precio: 100, id: 27, img: "Images/rascador-deluxe.png", categorias: "Juguetes" },
+    { nombre: "Cuerda", precio: 52, id: 28, img: "Images/cuerda.png", categorias: "Juguetes" },
 ]
 
 const categorias = ["Alimentos", "Snacks", "Higiene", "Accesorios", "Juguetes"];

@@ -12,7 +12,6 @@ const ItemListContainer = () => {
             .then(res => setProductos(res))
             .catch(error => console.error(error))
     }, [])
-
     return (
         <div className="container1">
             <h2 className="titleprod">Productos</h2>
