@@ -22,7 +22,7 @@ const Categorias = () => {
         <NavLink className="catProducto" to="/categoria/Higiene">Higiene</NavLink>
         <NavLink className="catProducto" to="/categoria/Accesorios">Accesorios</NavLink>
         <NavLink className="catProducto" to="/categoria/Juguetes">Juguetes</NavLink>
-        <NavLink className="catProducto" to="/categoria/Medicamentos">Suplementos</NavLink>
+        <NavLink className="catProducto" to="/categoria/Suplementos">Suplementos</NavLink>
       </div>
     </div>
   );
