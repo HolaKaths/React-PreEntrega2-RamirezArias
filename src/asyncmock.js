@@ -1,7 +1,7 @@
 const productos = [
     { nombre: "Acondicionador", precio: 600, id: "001", img: "/Images/acondicionador.png", categorias: "Higiene" },
     { nombre: "Champú", precio: 550, id: "002", img: "/Images/champu (1).png", categorias: "Higiene" },
-    { nombre: "Antipulgas", precio: 3750, id: "003", img: "/Images/anti-pulgas.png", categorias: "Higiene" },
+    { nombre: "Antipulgas", precio: 306, id: "003", img: "/Images/anti-pulgas.png", categorias: "Higiene" },
     { nombre: "Cepillo", precio: 100, id: "004", img: "/Images/cepillo.png", categorias: "Higiene" },
     { nombre: "Óleo VitE", precio: 300, id: "005", img: "/Images/vitamina-e.png", categorias: "Suplementos" },
     { nombre: "Collar azul", precio: 300, id: "006", img: "/Images/collar-azul.png", categorias: "Accesorios" },
