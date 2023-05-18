@@ -10,14 +10,17 @@
     background-color: #EEEEEE;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.itemDetailContainer h2, .itemDetailContainer h3, .itemDetailContainer p {
+  }
+  
+  .itemDetailContainer h2,
+  .itemDetailContainer h3,
+  .itemDetailContainer p {
     margin-bottom: 1rem;
-}
-
-.itemDetailContainer img {
+  }
+  
+  .itemDetailContainer img {
     max-width: 100%;
-    height: auto;
+    max-height: 300px; 
     margin-top: 2rem;
-}
+  }
+  

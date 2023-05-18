@@ -1,12 +1,12 @@
 import React from 'react';
 import './Banner.css';
+import bannerImage from './banner-tienda.png';
 
 const Banner = () => {
   return (
     <div className="banner">
-      <h2>¡Bienvenido a tu Tienda Pet!</h2>
-      <p> Aquí encontrarás todos los productos y accesorios para tu mascota.</p>
-    </div>
+      <img src={bannerImage} alt="Banner de la tienda" />
+          </div>
   );
 }
 

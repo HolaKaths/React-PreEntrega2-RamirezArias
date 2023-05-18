@@ -17,7 +17,7 @@ const productos = [
     { nombre: "Talco", precio: 512, id: "016", img: "/Images/talco.png", categorias: "Higiene" },
     { nombre: "Toalla", precio: 755, id: "017", img: "/Images/toalla.png", categorias: "Higiene" },
     { nombre: "Alimento", precio: 180, id: "018", img: "/Images/alimentos-para-mascotas.png", categorias: "Alimentos" },
-    { nombre: "Snacks", precio: 180, id: "019", img: "/Images/snacks.png", categorias: "Alimentos" },
+    { nombre: "Galletas", precio: 180, id: "019", img: "/Images/snacks.png", categorias: "Snacks" },
     { nombre: "Bozal", precio: 237, id: "020", img: "/Images/bozal.png", categorias: "Accesorios" },
     { nombre: "Colgante pluma", precio: 112, id: "021", img: "/Images/colgante-pluma.png", categorias: "Juguetes" },
     { nombre: "Colgante ratón", precio: 117, id: "022", img: "/Images/colgante-raton.png", categorias: "Juguetes" },

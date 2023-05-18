@@ -20,7 +20,7 @@ const descriptions = {
     '016': 'Un talco suave y absorbente para mantener a tu mascota fresca y libre de olores.',
     '017': 'Una toalla suave y absorbente para secar a tu mascota después del baño.',
     '018': 'Un alimento completo y equilibrado para satisfacer las necesidades nutricionales de tu mascota.',
-    '019': 'Deliciosos snacks para premiar y consentir a tu mascota en cualquier momento.',
+    '019': 'Deliciosas galletas para premiar y consentir a tu mascota en cualquier momento.',
     '020': 'Un bozal cómodo y seguro para controlar el comportamiento de tu mascota.',
     '021': 'Un colgante con diseño de pluma para añadir estilo y personalidad a tu mascota. Disponible en colores plateado, dorado y cobre.',
     '022': 'Un colgante con forma de ratón para entretener y divertir a tu mascota.',
